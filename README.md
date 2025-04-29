@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Electrical Services Website
 
-## Getting Started
+![Electrical Services](public/elec.png)
 
-First, run the development server:
+## What's This All About?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a modern, interactive website for an electrical services company built with Next.js and Three.js animations. The site features stunning 3D electrical-themed animations across different pages to create a unique and engaging user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Cool Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Eye-catching 3D animations** on each page using Three.js and React Three Fiber
+- **Responsive design** that looks great on phones, tablets, and desktops
+- **Interactive UI elements** with smooth transitions and modern aesthetics
+- **Contact form** for customer inquiries and service requests
+- **Service showcase** with detailed information about electrical offerings
+- **Custom cursor** for enhanced interactivity
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Next.js 15** - For fast, SEO-friendly React framework
+- **React 19** - UI component library
+- **Three.js & React Three Fiber** - For those awesome 3D animations
+- **TailwindCSS** - For styling without the hassle
+- **TypeScript** - For type safety (because we like catching bugs early!)
+- **React Hook Form** - For easy form handling
+- **Zod** - For validation schemas
+- **Radix UI** - For accessible UI components
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone this repository**
+   ```bash
+   git clone <your-repo-url>
+   cd frontend
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the site in action!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Project Structure
+
+- `app/` - Next.js app router pages
+- `components/` - Reusable UI components and animations
+  - `ui/` - Basic UI elements (buttons, inputs, etc.)
+  - `*-animation.tsx` - Three.js animations for different sections
+- `lib/` - Utility functions and shared code
+- `public/` - Static assets like images
+
+## 💡 The Electric Animations
+
+This project features three unique animations:
+
+1. **Hero Animation** - Electric particles and lines creating a dynamic hero section background
+2. **Electrical Animation** - Specialized animation for the services page featuring electrical field effects
+3. **Contact Animation** - Interactive particles for the contact page
+
+Each animation is built using React Three Fiber and custom Three.js elements to create a cohesive electrical theme throughout the site.
+
+## 📱 Responsive Design
+
+The site is fully responsive and works great on:
+- Mobile phones
+- Tablets
+- Desktop computers
+
+TailwindCSS makes this easy with utility classes for responsive design.
+
+## 🔄 Next Steps
+
+Some ideas for future enhancements:
+- Add a blog section for electrical tips and news
+- Implement a booking/scheduling system for appointments
+- Add a gallery of completed projects
+- Create a customer testimonials carousel
+
+## 📄 License
+
+[Insert your license information here]
+
+---
+
+Made with ⚡ and React
